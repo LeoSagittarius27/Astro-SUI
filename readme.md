@@ -1,4 +1,12 @@
+![Wheresyourjupiter](https://github.com/LeoSagittarius27/Astro-SUI/assets/140065755/fffe0ab7-63c4-4ae1-9205-0aef2522111d)
+
+
+
 contract deployed link https://suiexplorer.com/object/0x86df74c337d27bd83ac79ca940513b0c511b2b63a54467a6975a046f73540701?module=AstroNFT&network=devnet
+
+
+
+
 asset uploaded link https://i.ibb.co/k990yxN/Aquarius-2.jpghttps://i.ibb.co/kVTM8vs/Aries-2.jpg
 https://i.ibb.co/vcy6zch/Cancer-2.jpg
 https://i.ibb.co/j9thHYX/Capricorne-2.jpg
