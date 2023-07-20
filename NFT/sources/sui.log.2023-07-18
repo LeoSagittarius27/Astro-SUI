@@ -1,0 +1,16 @@
+2023-07-18T18:55:42.831502Z  INFO sui::client_commands: Added new Sui env [chrome] to config.
+2023-07-18T18:56:04.271508Z  INFO sui::client_commands: Active environment switched to [chrome]
+2023-07-18T18:56:12.430172Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.6.0, server api version : 1.4.3
+2023-07-18T18:58:58.804483Z  INFO sui::client_commands: devnet => https://fullnode.devnet.sui.io:443
+2023-07-18T18:58:58.804526Z  INFO sui::client_commands: chrome => https://fullnode.mainnet.sui.io:443 (active)
+2023-07-18T18:59:12.347643Z  INFO sui::client_commands: Active environment switched to [devnet]
+2023-07-18T19:08:12.137736Z  INFO sui::client_commands: devnet => https://fullnode.devnet.sui.io:443 (active)
+2023-07-18T19:08:12.139994Z  INFO sui::client_commands: chrome => https://fullnode.mainnet.sui.io:443
+2023-07-18T19:09:22.244516Z  INFO sui::client_commands: Added new Sui env [testnet] to config.
+2023-07-18T19:09:27.953887Z  INFO sui::client_commands: Active environment switched to [testnet]
+2023-07-18T19:09:32.012440Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.6.0, server api version : 1.5.0
+2023-07-18T19:16:43.738224Z  INFO sui::client_commands: devnet => https://fullnode.devnet.sui.io:443
+2023-07-18T19:16:43.738254Z  INFO sui::client_commands: chrome => https://fullnode.mainnet.sui.io:443
+2023-07-18T19:16:43.738258Z  INFO sui::client_commands: testnet => https://fullnode.testnet.sui.io:443 (active)
+2023-07-18T19:17:54.868225Z  INFO sui::client_commands: 4c78adac
+2023-07-18T19:28:08.526748Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.6.0, server api version : 1.5.0

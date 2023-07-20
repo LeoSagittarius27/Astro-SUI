@@ -1,0 +1,144 @@
+2023-07-20T05:20:22.167457Z  INFO sui::client_commands: [1m----- Transaction Digest ----[0m
+2023-07-20T05:20:22.168146Z  INFO sui::client_commands: 2R5RGJZPKRgXT53ZsgXpCmAJnKss28zDKv3WU1RXQ2KD
+2023-07-20T05:20:22.168150Z  INFO sui::client_commands: [1m----- Transaction Data ----[0m
+2023-07-20T05:20:22.168157Z  INFO sui::client_commands: Transaction Signature: [Signature(Ed25519SuiSignature(Ed25519SuiSignature([0, 161, 10, 206, 180, 140, 201, 117, 126, 174, 128, 60, 153, 215, 23, 82, 116, 139, 220, 142, 29, 108, 209, 230, 150, 110, 240, 223, 233, 60, 28, 112, 119, 163, 171, 27, 249, 22, 28, 78, 57, 182, 37, 210, 68, 17, 250, 173, 36, 86, 118, 133, 37, 93, 111, 57, 103, 62, 148, 83, 221, 135, 219, 229, 2, 254, 111, 87, 143, 113, 163, 28, 217, 56, 205, 120, 140, 48, 99, 254, 193, 120, 169, 225, 218, 106, 0, 136, 64, 172, 82, 226, 10, 45, 245, 57, 189])))]
+2023-07-20T05:20:22.168162Z  INFO sui::client_commands: Transaction Kind : Programmable
+2023-07-20T05:20:22.168166Z  INFO sui::client_commands: Inputs: [Pure(SuiPureValue { value_type: Some(Address), value: "0x09ac63d300f17558a647d6e4ad97c5cd725725184aae0a8a096e7d12224f93b3" })]
+2023-07-20T05:20:22.168168Z  INFO sui::client_commands: Commands: [
+2023-07-20T05:20:22.168171Z  INFO sui::client_commands:   Publish(<modules>,0x0000000000000000000000000000000000000000000000000000000000000001,0x0000000000000000000000000000000000000000000000000000000000000002),
+2023-07-20T05:20:22.168174Z  INFO sui::client_commands:   TransferObjects([Result(0)],Input(0)),
+2023-07-20T05:20:22.168177Z  INFO sui::client_commands: ]
+2023-07-20T05:20:22.168180Z  INFO sui::client_commands: 
+2023-07-20T05:20:22.169346Z  INFO sui::client_commands: Sender: 0x09ac63d300f17558a647d6e4ad97c5cd725725184aae0a8a096e7d12224f93b3
+2023-07-20T05:20:22.169369Z  INFO sui::client_commands: Gas Payment: Object ID: 0x422500b8e6c20a40eac5daee4361d78bd76494c9bbb081fe60424d73a8ec958a, version: 0x1e, digest: FiTV6K5we463AeagrbmA7CjQwjwmxZehLNDeAFkYx3cb 
+2023-07-20T05:20:22.169374Z  INFO sui::client_commands: Gas Owner: 0x09ac63d300f17558a647d6e4ad97c5cd725725184aae0a8a096e7d12224f93b3
+2023-07-20T05:20:22.169378Z  INFO sui::client_commands: Gas Price: 1000
+2023-07-20T05:20:22.169382Z  INFO sui::client_commands: Gas Budget: 10000000
+2023-07-20T05:20:22.169385Z  INFO sui::client_commands: 
+2023-07-20T05:20:22.169389Z  INFO sui::client_commands: [1m----- Transaction Effects ----[0m
+2023-07-20T05:20:22.169392Z  INFO sui::client_commands: Status : Success
+2023-07-20T05:20:22.169395Z  INFO sui::client_commands: Created Objects:
+2023-07-20T05:20:22.169399Z  INFO sui::client_commands:   - ID: 0x3b3b4436e49cf17859f5c9c54092b4740fdb8ddaf1b3de39d9dfb7e21d1fbf4e , Owner: Immutable
+2023-07-20T05:20:22.169403Z  INFO sui::client_commands:   - ID: 0x5ac0df4c9cda48e3d3e7750794832b967635f042179698d845cdfb5a7ccf06b3 , Owner: Account Address ( 0x09ac63d300f17558a647d6e4ad97c5cd725725184aae0a8a096e7d12224f93b3 )
+2023-07-20T05:20:22.169406Z  INFO sui::client_commands: Mutated Objects:
+2023-07-20T05:20:22.169411Z  INFO sui::client_commands:   - ID: 0x422500b8e6c20a40eac5daee4361d78bd76494c9bbb081fe60424d73a8ec958a , Owner: Account Address ( 0x09ac63d300f17558a647d6e4ad97c5cd725725184aae0a8a096e7d12224f93b3 )
+2023-07-20T05:20:22.169414Z  INFO sui::client_commands: 
+2023-07-20T05:20:22.169418Z  INFO sui::client_commands: [1m----- Events ----[0m
+2023-07-20T05:20:22.169422Z  INFO sui::client_commands: Array []
+2023-07-20T05:20:22.169426Z  INFO sui::client_commands: [1m----- Object changes ----[0m
+2023-07-20T05:20:22.169430Z  INFO sui::client_commands: Array [
+2023-07-20T05:20:22.169433Z  INFO sui::client_commands:     Object {
+2023-07-20T05:20:22.169437Z  INFO sui::client_commands:         "type": String("mutated"),
+2023-07-20T05:20:22.169669Z  INFO sui::client_commands:         "sender": String("0x09ac63d300f17558a647d6e4ad97c5cd725725184aae0a8a096e7d12224f93b3"),
+2023-07-20T05:20:22.169697Z  INFO sui::client_commands:         "owner": Object {
+2023-07-20T05:20:22.169703Z  INFO sui::client_commands:             "AddressOwner": String("0x09ac63d300f17558a647d6e4ad97c5cd725725184aae0a8a096e7d12224f93b3"),
+2023-07-20T05:20:22.169709Z  INFO sui::client_commands:         },
+2023-07-20T05:20:22.169714Z  INFO sui::client_commands:         "objectType": String("0x2::coin::Coin<0x2::sui::SUI>"),
+2023-07-20T05:20:22.169720Z  INFO sui::client_commands:         "objectId": String("0x422500b8e6c20a40eac5daee4361d78bd76494c9bbb081fe60424d73a8ec958a"),
+2023-07-20T05:20:22.169725Z  INFO sui::client_commands:         "version": String("31"),
+2023-07-20T05:20:22.169729Z  INFO sui::client_commands:         "previousVersion": String("30"),
+2023-07-20T05:20:22.169735Z  INFO sui::client_commands:         "digest": String("ENHUZ5dMCVWyDmpNqjgsTLRpsnu1i4sRUJC26Zb2x33X"),
+2023-07-20T05:20:22.169738Z  INFO sui::client_commands:     },
+2023-07-20T05:20:22.169744Z  INFO sui::client_commands:     Object {
+2023-07-20T05:20:22.169748Z  INFO sui::client_commands:         "type": String("published"),
+2023-07-20T05:20:22.169752Z  INFO sui::client_commands:         "packageId": String("0x3b3b4436e49cf17859f5c9c54092b4740fdb8ddaf1b3de39d9dfb7e21d1fbf4e"),
+2023-07-20T05:20:22.169758Z  INFO sui::client_commands:         "version": String("1"),
+2023-07-20T05:20:22.169762Z  INFO sui::client_commands:         "digest": String("AbLYAAAARPwhsY14p41VbE3MEbpwSkqwyRYCb46Z9txR"),
+2023-07-20T05:20:22.169768Z  INFO sui::client_commands:         "modules": Array [
+2023-07-20T05:20:22.169772Z  INFO sui::client_commands:             String("AstroNFT"),
+2023-07-20T05:20:22.169778Z  INFO sui::client_commands:         ],
+2023-07-20T05:20:22.169782Z  INFO sui::client_commands:     },
+2023-07-20T05:20:22.169786Z  INFO sui::client_commands:     Object {
+2023-07-20T05:20:22.169791Z  INFO sui::client_commands:         "type": String("created"),
+2023-07-20T05:20:22.169893Z  INFO sui::client_commands:         "sender": String("0x09ac63d300f17558a647d6e4ad97c5cd725725184aae0a8a096e7d12224f93b3"),
+2023-07-20T05:20:22.169904Z  INFO sui::client_commands:         "owner": Object {
+2023-07-20T05:20:22.169909Z  INFO sui::client_commands:             "AddressOwner": String("0x09ac63d300f17558a647d6e4ad97c5cd725725184aae0a8a096e7d12224f93b3"),
+2023-07-20T05:20:22.169913Z  INFO sui::client_commands:         },
+2023-07-20T05:20:22.169917Z  INFO sui::client_commands:         "objectType": String("0x2::package::UpgradeCap"),
+2023-07-20T05:20:22.169921Z  INFO sui::client_commands:         "objectId": String("0x5ac0df4c9cda48e3d3e7750794832b967635f042179698d845cdfb5a7ccf06b3"),
+2023-07-20T05:20:22.169924Z  INFO sui::client_commands:         "version": String("31"),
+2023-07-20T05:20:22.169928Z  INFO sui::client_commands:         "digest": String("6sCD77nXoitBmbGZZfFSa8Nd2Ua5hF7byQ99NB9HTW2A"),
+2023-07-20T05:20:22.169931Z  INFO sui::client_commands:     },
+2023-07-20T05:20:22.169935Z  INFO sui::client_commands: ]
+2023-07-20T05:20:22.169939Z  INFO sui::client_commands: [1m----- Balance changes ----[0m
+2023-07-20T05:20:22.169942Z  INFO sui::client_commands: Array [
+2023-07-20T05:20:22.169946Z  INFO sui::client_commands:     Object {
+2023-07-20T05:20:22.169949Z  INFO sui::client_commands:         "owner": Object {
+2023-07-20T05:20:22.169953Z  INFO sui::client_commands:             "AddressOwner": String("0x09ac63d300f17558a647d6e4ad97c5cd725725184aae0a8a096e7d12224f93b3"),
+2023-07-20T05:20:22.169957Z  INFO sui::client_commands:         },
+2023-07-20T05:20:22.169961Z  INFO sui::client_commands:         "coinType": String("0x2::sui::SUI"),
+2023-07-20T05:20:22.169964Z  INFO sui::client_commands:         "amount": String("-8153880"),
+2023-07-20T05:20:22.169968Z  INFO sui::client_commands:     },
+2023-07-20T05:20:22.169971Z  INFO sui::client_commands: ]
+2023-07-20T09:46:05.508909Z  INFO sui::client_commands: [1m----- Transaction Digest ----[0m
+2023-07-20T09:46:05.511216Z  INFO sui::client_commands: GADWKNYWCqm2Bt6v3xdzM1x7vgKCxhHXsvUCEFrGSuH2
+2023-07-20T09:46:05.511225Z  INFO sui::client_commands: [1m----- Transaction Data ----[0m
+2023-07-20T09:46:05.511232Z  INFO sui::client_commands: Transaction Signature: [Signature(Ed25519SuiSignature(Ed25519SuiSignature([0, 185, 118, 225, 39, 154, 190, 89, 119, 65, 75, 174, 161, 144, 254, 132, 173, 49, 232, 121, 130, 220, 131, 156, 40, 222, 18, 123, 117, 143, 19, 153, 189, 172, 182, 58, 107, 246, 13, 174, 210, 154, 64, 168, 65, 192, 121, 247, 189, 9, 152, 117, 27, 17, 69, 178, 149, 223, 182, 110, 3, 113, 71, 184, 3, 254, 111, 87, 143, 113, 163, 28, 217, 56, 205, 120, 140, 48, 99, 254, 193, 120, 169, 225, 218, 106, 0, 136, 64, 172, 82, 226, 10, 45, 245, 57, 189])))]
+2023-07-20T09:46:05.511243Z  INFO sui::client_commands: Transaction Kind : Programmable
+2023-07-20T09:46:05.511247Z  INFO sui::client_commands: Inputs: [Pure(SuiPureValue { value_type: Some(Address), value: "0x09ac63d300f17558a647d6e4ad97c5cd725725184aae0a8a096e7d12224f93b3" })]
+2023-07-20T09:46:05.511254Z  INFO sui::client_commands: Commands: [
+2023-07-20T09:46:05.511258Z  INFO sui::client_commands:   Publish(<modules>,0x0000000000000000000000000000000000000000000000000000000000000001,0x0000000000000000000000000000000000000000000000000000000000000002),
+2023-07-20T09:46:05.511262Z  INFO sui::client_commands:   TransferObjects([Result(0)],Input(0)),
+2023-07-20T09:46:05.511265Z  INFO sui::client_commands: ]
+2023-07-20T09:46:05.511268Z  INFO sui::client_commands: 
+2023-07-20T09:46:05.511271Z  INFO sui::client_commands: Sender: 0x09ac63d300f17558a647d6e4ad97c5cd725725184aae0a8a096e7d12224f93b3
+2023-07-20T09:46:05.511276Z  INFO sui::client_commands: Gas Payment: Object ID: 0x422500b8e6c20a40eac5daee4361d78bd76494c9bbb081fe60424d73a8ec958a, version: 0x20, digest: 92d8ySQyjB1qDqyYKcDuENZvkSAmjh17sbcLxgKXs5rv 
+2023-07-20T09:46:05.511279Z  INFO sui::client_commands: Gas Owner: 0x09ac63d300f17558a647d6e4ad97c5cd725725184aae0a8a096e7d12224f93b3
+2023-07-20T09:46:05.511282Z  INFO sui::client_commands: Gas Price: 1000
+2023-07-20T09:46:05.511286Z  INFO sui::client_commands: Gas Budget: 10000000
+2023-07-20T09:46:05.511289Z  INFO sui::client_commands: 
+2023-07-20T09:46:05.511292Z  INFO sui::client_commands: [1m----- Transaction Effects ----[0m
+2023-07-20T09:46:05.511295Z  INFO sui::client_commands: Status : Success
+2023-07-20T09:46:05.511298Z  INFO sui::client_commands: Created Objects:
+2023-07-20T09:46:05.511302Z  INFO sui::client_commands:   - ID: 0x86df74c337d27bd83ac79ca940513b0c511b2b63a54467a6975a046f73540701 , Owner: Immutable
+2023-07-20T09:46:05.511306Z  INFO sui::client_commands:   - ID: 0xcb22a883d098a0744564d0b119a1f184813393809ec0bac8f8ab58391f378fdd , Owner: Account Address ( 0x09ac63d300f17558a647d6e4ad97c5cd725725184aae0a8a096e7d12224f93b3 )
+2023-07-20T09:46:05.511309Z  INFO sui::client_commands: Mutated Objects:
+2023-07-20T09:46:05.511313Z  INFO sui::client_commands:   - ID: 0x422500b8e6c20a40eac5daee4361d78bd76494c9bbb081fe60424d73a8ec958a , Owner: Account Address ( 0x09ac63d300f17558a647d6e4ad97c5cd725725184aae0a8a096e7d12224f93b3 )
+2023-07-20T09:46:05.511316Z  INFO sui::client_commands: 
+2023-07-20T09:46:05.511320Z  INFO sui::client_commands: [1m----- Events ----[0m
+2023-07-20T09:46:05.511323Z  INFO sui::client_commands: Array []
+2023-07-20T09:46:05.511326Z  INFO sui::client_commands: [1m----- Object changes ----[0m
+2023-07-20T09:46:05.511329Z  INFO sui::client_commands: Array [
+2023-07-20T09:46:05.511333Z  INFO sui::client_commands:     Object {
+2023-07-20T09:46:05.511336Z  INFO sui::client_commands:         "type": String("mutated"),
+2023-07-20T09:46:05.511339Z  INFO sui::client_commands:         "sender": String("0x09ac63d300f17558a647d6e4ad97c5cd725725184aae0a8a096e7d12224f93b3"),
+2023-07-20T09:46:05.511342Z  INFO sui::client_commands:         "owner": Object {
+2023-07-20T09:46:05.511346Z  INFO sui::client_commands:             "AddressOwner": String("0x09ac63d300f17558a647d6e4ad97c5cd725725184aae0a8a096e7d12224f93b3"),
+2023-07-20T09:46:05.511349Z  INFO sui::client_commands:         },
+2023-07-20T09:46:05.511353Z  INFO sui::client_commands:         "objectType": String("0x2::coin::Coin<0x2::sui::SUI>"),
+2023-07-20T09:46:05.511356Z  INFO sui::client_commands:         "objectId": String("0x422500b8e6c20a40eac5daee4361d78bd76494c9bbb081fe60424d73a8ec958a"),
+2023-07-20T09:46:05.511359Z  INFO sui::client_commands:         "version": String("33"),
+2023-07-20T09:46:05.511362Z  INFO sui::client_commands:         "previousVersion": String("32"),
+2023-07-20T09:46:05.511366Z  INFO sui::client_commands:         "digest": String("WzFUjA19eLPugM2jxTnwkLjHqjxzePTqfNmGKZEcPtM"),
+2023-07-20T09:46:05.511369Z  INFO sui::client_commands:     },
+2023-07-20T09:46:05.511372Z  INFO sui::client_commands:     Object {
+2023-07-20T09:46:05.511375Z  INFO sui::client_commands:         "type": String("published"),
+2023-07-20T09:46:05.511386Z  INFO sui::client_commands:         "packageId": String("0x86df74c337d27bd83ac79ca940513b0c511b2b63a54467a6975a046f73540701"),
+2023-07-20T09:46:05.511390Z  INFO sui::client_commands:         "version": String("1"),
+2023-07-20T09:46:05.511393Z  INFO sui::client_commands:         "digest": String("GtKgZwpBszGXKpatLjowV8WHWzVrkUVFrj9ZzsauCfc3"),
+2023-07-20T09:46:05.511396Z  INFO sui::client_commands:         "modules": Array [
+2023-07-20T09:46:05.511399Z  INFO sui::client_commands:             String("AstroNFT"),
+2023-07-20T09:46:05.511402Z  INFO sui::client_commands:         ],
+2023-07-20T09:46:05.511406Z  INFO sui::client_commands:     },
+2023-07-20T09:46:05.511409Z  INFO sui::client_commands:     Object {
+2023-07-20T09:46:05.511413Z  INFO sui::client_commands:         "type": String("created"),
+2023-07-20T09:46:05.511416Z  INFO sui::client_commands:         "sender": String("0x09ac63d300f17558a647d6e4ad97c5cd725725184aae0a8a096e7d12224f93b3"),
+2023-07-20T09:46:05.511419Z  INFO sui::client_commands:         "owner": Object {
+2023-07-20T09:46:05.511423Z  INFO sui::client_commands:             "AddressOwner": String("0x09ac63d300f17558a647d6e4ad97c5cd725725184aae0a8a096e7d12224f93b3"),
+2023-07-20T09:46:05.511426Z  INFO sui::client_commands:         },
+2023-07-20T09:46:05.511429Z  INFO sui::client_commands:         "objectType": String("0x2::package::UpgradeCap"),
+2023-07-20T09:46:05.511432Z  INFO sui::client_commands:         "objectId": String("0xcb22a883d098a0744564d0b119a1f184813393809ec0bac8f8ab58391f378fdd"),
+2023-07-20T09:46:05.511435Z  INFO sui::client_commands:         "version": String("33"),
+2023-07-20T09:46:05.511438Z  INFO sui::client_commands:         "digest": String("Ba3Jd4TrzLQfstx9UWWj9Nqi24Bgh5jJTyUVrYieGusH"),
+2023-07-20T09:46:05.511441Z  INFO sui::client_commands:     },
+2023-07-20T09:46:05.511445Z  INFO sui::client_commands: ]
+2023-07-20T09:46:05.511448Z  INFO sui::client_commands: [1m----- Balance changes ----[0m
+2023-07-20T09:46:05.511452Z  INFO sui::client_commands: Array [
+2023-07-20T09:46:05.511455Z  INFO sui::client_commands:     Object {
+2023-07-20T09:46:05.511458Z  INFO sui::client_commands:         "owner": Object {
+2023-07-20T09:46:05.511461Z  INFO sui::client_commands:             "AddressOwner": String("0x09ac63d300f17558a647d6e4ad97c5cd725725184aae0a8a096e7d12224f93b3"),
+2023-07-20T09:46:05.511464Z  INFO sui::client_commands:         },
+2023-07-20T09:46:05.511468Z  INFO sui::client_commands:         "coinType": String("0x2::sui::SUI"),
+2023-07-20T09:46:05.511471Z  INFO sui::client_commands:         "amount": String("-8153880"),
+2023-07-20T09:46:05.511474Z  INFO sui::client_commands:     },
+2023-07-20T09:46:05.511478Z  INFO sui::client_commands: ]

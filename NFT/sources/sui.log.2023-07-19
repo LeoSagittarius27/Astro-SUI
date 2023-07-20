@@ -1,0 +1,16 @@
+2023-07-19T06:03:18.441696Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.6.0, server api version : 1.5.0
+2023-07-19T06:17:22.980895Z  INFO sui::client_commands: devnet => https://fullnode.devnet.sui.io:443
+2023-07-19T06:17:22.980946Z  INFO sui::client_commands: chrome => https://fullnode.mainnet.sui.io:443
+2023-07-19T06:17:22.980950Z  INFO sui::client_commands: testnet => https://fullnode.testnet.sui.io:443 (active)
+2023-07-19T06:18:16.666239Z  INFO sui::client_commands: Added new Sui env [allnode] to config.
+2023-07-19T06:18:39.680290Z  INFO sui::client_commands: Active environment switched to [allnode]
+2023-07-19T06:18:43.434175Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.6.0, server api version : 1.5.0
+2023-07-19T06:19:37.070312Z  INFO sui::client_commands: devnet => https://fullnode.devnet.sui.io:443
+2023-07-19T06:19:37.070343Z  INFO sui::client_commands: chrome => https://fullnode.mainnet.sui.io:443
+2023-07-19T06:19:37.070345Z  INFO sui::client_commands: testnet => https://fullnode.testnet.sui.io:443
+2023-07-19T06:19:37.070347Z  INFO sui::client_commands: allnode => https://sui-testnet-rpc.allthatnode.com:443 (active)
+2023-07-19T06:19:51.896874Z  INFO sui::client_commands: Active environment switched to [testnet]
+2023-07-19T06:19:59.517101Z  WARN sui_sdk::wallet_context: Client/Server api version mismatch, client api version : 1.6.0, server api version : 1.5.0
+2023-07-19T06:21:41.974619Z  INFO sui::client_commands:                              Object ID                              |  Gas Value 
+2023-07-19T06:21:41.974638Z  INFO sui::client_commands: ----------------------------------------------------------------------------------
+2023-07-19T06:21:41.974640Z  INFO sui::client_commands:  0xc387a49a20f4fa306a77a2cb6067a338f0fc8e22d9d4c5f379225edd3f89f453 |  499000000 
